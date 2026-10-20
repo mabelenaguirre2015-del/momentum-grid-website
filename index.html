@@ -239,7 +239,9 @@
           <p>Tell me a little about your work. We'll start with the content you already have—and identify what deserves your attention first.</p>
           <div class="contact-smallprint"><span class="contact-square"></span> NO GUESSWORK. NO GUARANTEED-RESULTS CLAIMS. JUST A CLEARER PLAN.</div>
         </div>
-        <form class="contact-form" id="contact-form">
+        <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="78902d15-c598-47ec-af6f-11df8fb2828d">
+     
           <label for="name">Your name</label>
           <input id="name" name="name" type="text" autocomplete="name" placeholder="Name" required>
           <label for="email">Email address</label>
